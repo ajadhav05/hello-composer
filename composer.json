@@ -1,0 +1,21 @@
+{
+    "name": "firstproject/hello-composer",
+    "description": "My first packagist package",
+    "type": "library",
+	"require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "abhijit",
+            "email": "abhi.jadhav5496@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+            "firstproject\\HelloComposer\\": "src/"
+        }
+    }
+    "require": {}
+}
